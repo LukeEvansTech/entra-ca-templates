@@ -42,10 +42,10 @@ Invoke-Maester -Path ./tests
 
 ## Templates
 
-| File | Policy |
-| ---- | ------ |
-| `templates/01-block-legacy-auth.json` | Block legacy authentication for all users. |
-| `templates/02-mfa-for-admins.json` | Require MFA for all directory-role members. |
+| File                                  | Policy                                      |
+| ------------------------------------- | ------------------------------------------- |
+| `templates/01-block-legacy-auth.json` | Block legacy authentication for all users.  |
+| `templates/02-mfa-for-admins.json`    | Require MFA for all directory-role members. |
 
 ## Contributing
 
