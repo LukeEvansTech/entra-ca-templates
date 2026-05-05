@@ -18,7 +18,7 @@ Early — public seed of an ongoing project. Templates are valid Microsoft Graph
 
 ## Layout
 
-```
+```text
 templates/        Conditional Access policy JSON, one file per policy.
 deploy/           PowerShell helper to deploy templates via Microsoft Graph.
 tests/            Maester tests verifying each policy is present and configured.

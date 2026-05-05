@@ -1,4 +1,4 @@
-#Requires -Modules Pester, Maester
+﻿#Requires -Modules Pester, Maester
 
 BeforeDiscovery {
     $script:tag = @('ConditionalAccess', 'Entra')
