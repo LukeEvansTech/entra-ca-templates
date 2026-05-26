@@ -3,7 +3,7 @@
 site_name = "entra-ca-templates"
 site_description = "Microsoft Entra Conditional Access policies as code, with Maester verification"
 site_author = "Luke Evans"
-site_url = "https://LukeEvansTech.github.io/entra-ca-templates/"
+site_url = "https://lukeevanstech.github.io/entra-ca-templates/"
 copyright = "Copyright © 2026 Luke Evans"
 
 docs_dir = "docs"
