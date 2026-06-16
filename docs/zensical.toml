@@ -55,3 +55,6 @@ Home = "index.md"
 [markdown_extensions]
 admonition = {}
 toc = { permalink = true }
+
+[markdown_extensions.pymdownx.superfences]
+custom_fences = [{ name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }]
