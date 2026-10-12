@@ -43,18 +43,11 @@ repo_url = "https://github.com/LukeEvansTech/entra-ca-templates/"
 repo_name = "LukeEvansTech/entra-ca-templates"
 edit_uri = "edit/main/docs/docs"
 
-[[nav]]
+[[project.nav]]
 Home = "index.md"
 
-[[nav]]
+[[project.nav]]
 "Templates" = [
   { "Block legacy auth" = "templates/block-legacy-auth.md" },
   { "MFA for admins" = "templates/mfa-for-admins.md" }
 ]
-
-[markdown_extensions]
-admonition = {}
-toc = { permalink = true }
-
-[markdown_extensions.pymdownx.superfences]
-custom_fences = [{ name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }]
